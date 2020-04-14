@@ -11,20 +11,20 @@ body{
     color: #A57940;
 }
 
-/* --------------------------LOGO ET MENU----------------- */
+/* --------------------------LOGO GAUCHE ET MENU----------------- */
 
 
 .header{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 .header img{
     width: 30%;
     height: auto;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 li{
@@ -34,7 +34,7 @@ li{
 
 
 .nav ul{
-    padding: 0px;
+    padding: 30px;
 }
 
 .nav a{
@@ -55,15 +55,15 @@ li{
     flex-direction: row;
     justify-content: center;
     
+    
 }
 
 /* --------------------------LOGO BANNIERE----------------- */
 
-
-.banner img{
+.banner video{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
-    width: 65%;
+    top: 0;
+
 }
