@@ -18,7 +18,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    margin-top: 1%;
+    background-color: #ffffff;
 }
 
 .header img{
@@ -54,8 +54,6 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
-    
 }
 
 /* --------------------------LOGO BANNIERE----------------- */
@@ -65,5 +63,4 @@ li{
     margin-left: auto;
     margin-right: auto;
     top: 0;
-
 }
