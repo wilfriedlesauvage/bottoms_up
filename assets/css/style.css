@@ -17,6 +17,7 @@ body{
     color: #A57940;
     font-family: Montserrat-Regular;
     src: url("../font/Montserrat-Regular.ttf") format("truetype");
+    
 }
 
 #main{
@@ -29,23 +30,23 @@ body{
 /* --------------------------BANNIERE VIDEO ----------------- */
 
 .banner{
-width: 100%;
-height: auto;
-overflow: hidden;
-display: flex;
-justify-content: center;
-align-items: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .banner video{
-position: absolute;
-top: 0;
-left: 0;
-object-fit: cover;
-width: 100%;
-height: 80%;
-Pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+    Pointer-events: none;
 }
 
 
@@ -123,30 +124,46 @@ p{
     src: url("../font/Montserrat-Regular.ttf") format("truetype");
     }
     
-    .container {
-        display: flex; 
-        flex-direction: wrap;
+.container {
+    display: flex; 
+    flex-direction: wrap;
     }
     
-    .container1 {
+.container1 {
     flex-direction: column;
     justify-content: center;
     }
     
-    .container1 h1{
-        display: flex;
-        justify-content: center;
-        font-family: Montserrat-Regular;
-        font-size: medium;
-        src: url("../font/Montserrat-Regular.ttf") format("truetype");
-        color: #fdfdfd;
-        background-color: #e49c30;
-        padding: 20px;
-        text-align: center;
-    }
+.container1 h1{
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat-Regular;
+    font-size: medium;
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
+    color: #fdfdfd;
+    background-color: #e49c30;
+    padding: 20px;
+    text-align: center;
+}
         
+.adresse h1{
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat-Regular;
+    font-size: medium;
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
+    color: #fdfdfd;
+    background-color: #e49c30;
+    padding: 20px;
+    text-align: center;
+}
+
+.italic{
+    font-style: italic;
+    font-weight: lighter;
+}
     
-    .container1 h2{
+.container1 h2{
     display: flex;
     justify-content: center;
     font-size: 30px;
@@ -154,132 +171,133 @@ p{
     src: url("../font/theyoshi.ttf") format("truetype");
     color: #363636;
     text-align: center;
+    paddin
     }
     
-    .container1 p{
+.container1 p{
     padding: 30px;
     text-align: justify;
-    }
+}
     
+.containerLeft {
+    float: left;
+    flex-direction: column;
+    justify-content: left;
+    width: 50%;
+    background-color: #e49c30;
+}
     
-    .containerLeft {
-        float: left;
-        flex-direction: column;
-        justify-content: left;
-        width: 50%;
-        background-color: #e49c30;
-        }
+.containerLeft h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: The Yoshi;
+    src: url("../font/theyoshi.ttf") format("truetype");
+    color: #ffffff;
+    text-align: center;
+}
     
-    .containerLeft h2{
+.containerLeft p{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
     
-        display: flex;
-        justify-content: center;
-        font-size: 30px;
-        font-family: The Yoshi;
-        src: url("../font/theyoshi.ttf") format("truetype");
-        color: #ffffff;
-        text-align: center;
-        }
-    
-        .containerLeft p{
-    
-             display: flex;
-            justify-content: center;
-            font-size: medium;
-            src: url("../font/Montserrat-Regular.ttf") format("truetype");
-            color: #ffffff;
-            text-align: center;
-            padding: 20px;
-            }
-    
-    .containerLeft img {
-    
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        }
+.containerLeft img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
     
             
-    .containerRight {
-        float: left;
-        flex-direction: column;
-        justify-content: right;
-        width: 50%;
-        background-color: #363636;
-        }
+.containerRight {
+    float: left;
+    flex-direction: column;
+    justify-content: right;
+    width: 50%;
+    background-color: #363636;
+}
     
     
-    .containerRight img {
+.containerRight img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
     
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        }
+.containerRight h2{
     
-        .containerRight h2{
-    
-            display: flex;
-            justify-content: center;
-            font-size: 30px;
-            font-family: The Yoshi;
-            src: url("../font/theyoshi.ttf") format("truetype");
-            color: #ffffff;
-            text-align: center;
-            margin-top: 20px;
-            margin-bottom: 50px;
-            }
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: The Yoshi;
+    src: url("../font/theyoshi.ttf") format("truetype");
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
         
-      .containerRight li{
-            
-        
-        display: flex;
-        justify-content: center;
-        font-size: medium;
-        src: url("../font/Montserrat-Regular.ttf") format("truetype");
-        color: #ffffff;
-        font-size: medium;
-        text-align: center;
-        padding: 20px;
-        background-color: #363636;
-        margin-bottom: 41px;
-        }
+.containerRight li{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
+    color: #ffffff;
+    font-size: medium;
+    text-align: center;
+    padding: 20px;
+    background-color: #363636;
+    margin-bottom: 41px;
+    padding-bottom: 147px;
+}
     
-        .containerRight i{
-            
-        
-            display: flex;
-            justify-content: center;
-            font-size: medium;
-            src: url("../font/Montserrat-Regular.ttf") format("truetype");
-            color: #ffffff;
-            text-align: center;
-            padding: 20px;
-            }
+.containerRight i{   
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
 
 
 
 
 
-/* ---------------------FOOTER------------------ */
+/* ---------------------FOOTER SOCIAL NETWORK ET COPYRIGHT------------------ */
 
 footer{
     background: #ffffff;
-    padding-right: 50px;
     padding-top:50px;
     padding-bottom:50px;
     height:50px;
-    text-align: right;
+    text-align: center;
 }
+
 
 .socialFooter img{
     width: 2%;
     height: auto;
-    margin-top: 1%;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 4%;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-right: 30px;
     text-align: center;
+    padding-bottom: 50px;
 }
 
+
+
+footer p{
+    padding-bottom: 50px;
+    color: #363636;
+}
 
 /*------------------------------------- PARTIE RESPONSIVE -----------------------------------*/ 
 
