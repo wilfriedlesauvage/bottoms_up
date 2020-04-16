@@ -55,19 +55,13 @@ header{
     position: relative;
 }
 
-.menu{
+
+.navbar{
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    justify-items: center;
     background-color: #ffffff;
-    padding-top: 25%;
-}
-
-.menu img{
-    width: 30%;
-    height: auto;
-    margin-left: 60%;
-    margin-top: 50%;
+    padding-top: 35%;
 }
 
 li{
@@ -125,8 +119,7 @@ p{
     }
     
 .container {
-    display: flex; 
-    flex-direction: wrap;
+    display: flex;
     }
     
 .container1 {
@@ -145,22 +138,34 @@ p{
     padding: 20px;
     text-align: center;
 }
-        
+ 
+.adresse{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .adresse h1{
     display: flex;
     justify-content: center;
     font-family: Montserrat-Regular;
     font-size: medium;
     src: url("../font/Montserrat-Regular.ttf") format("truetype");
-    color: #fdfdfd;
-    background-color: #e49c30;
+    color: #e49c30;
+    background-color: #ffffff;
     padding: 20px;
     text-align: center;
+}
+
+
+.logo{
+    width: 30%;
+    height: auto;
 }
 
 .italic{
     font-style: italic;
     font-weight: lighter;
+    color: #363636;
 }
     
 .container1 h2{
@@ -171,7 +176,7 @@ p{
     src: url("../font/theyoshi.ttf") format("truetype");
     color: #363636;
     text-align: center;
-    paddin
+    padding: 20px;
     }
     
 .container1 p{
@@ -242,7 +247,7 @@ p{
     margin-bottom: 50px;
 }
         
-.containerRight li{
+.containerRight p{
     display: flex;
     justify-content: center;
     font-size: medium;
@@ -251,22 +256,50 @@ p{
     font-size: medium;
     text-align: center;
     padding: 20px;
-    background-color: #363636;
-    margin-bottom: 41px;
-    padding-bottom: 147px;
-}
+    }  
+
+.containerRight ol{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
+    color: #ffffff;
+    font-size: medium;
+    text-align: center;
+    padding: 20px;
+   }
+
+    #form{
+    border: none;
+    }
+
+    .form { 
+    justify-content: center;
+    font-size: medium;
+    src: url("../font/Montserrat-Regular.ttf") format("truetype");
+    color: #ffffff;
+    padding: 9.6px; 
+    border: none; 
+    }
     
-.containerRight i{   
-    display: flex;
-    justify-content: center;
-    font-size: medium;
+    .champ{
+    padding: 20px;
+    }
+
+    input[type=submit]{
+    background-color: #e49c30;
+    font-size: small;
     src: url("../font/Montserrat-Regular.ttf") format("truetype");
     color: #ffffff;
-    text-align: center;
-    padding: 20px;
+    padding: 10px; 
+    border: none;
+    border-radius: 6px;
+    }
+    
+.container2 {
+    width: 100%;
+    height: auto;
 }
-
-
 
 
 
@@ -306,35 +339,16 @@ footer p{
                   redimensionner la taille de la police
                   aligner le menu sur la gauche ---------------------------------------------*/
 
-@media all and (max-width: 1024px) 
-{
-    .header nav
-    {
-        width: auto;
-        text-align: left;
+@media screen and (max-width: 480px){
+    .navbar{
+      display: none;
     }
-
-    .nav ul
-    {
-        flex-direction: column;
+  }
+  @media screen and (min-width: 481px) and (max-width: 800px){
+    #navbar ul{
+      flex-direction: column;
     }
-
-    .menu li
-    {
-        padding-left: 4px;
-    }
-
-    .nav a
-    {
-        font-size: 1.1em;
-    }
-
-    nav a:hover
-    {
-        border-bottom: 0;
-    }
-
-}
+  }
 
 /*----------------Demande à retirer le logo à partir de 1024px et en dessous.-------------------*/
 
@@ -345,7 +359,29 @@ footer p{
     }
 
 }
+/*----------------Demande à placer les colonnes les unes en dessous des autres et affichage a 100%.-------------------*/
 
+@media screen and (max-width: 320px)
+ {
+    .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    }
+
+    .containerLeft{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    }
+
+    .containerRight{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+      
+     }
+}
 
 @media all and (max-width: 1024px) 
 {
